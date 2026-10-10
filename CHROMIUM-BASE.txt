@@ -1,0 +1,6 @@
+Chromium version: 155.0.8059.12
+Chromium Git tag: 155.0.8059.12
+Chromium base commit: 384c82079f60e0b79cdca6e49efd5cfceefa5b74
+
+Upstream:
+https://chromium.googlesource.com/chromium/src.git

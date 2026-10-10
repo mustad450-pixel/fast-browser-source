@@ -1,0 +1,56 @@
+copy("root_files") {
+  sources = [
+    "manifest.json",
+    "newtab.css",
+    "newtab.html",
+    "newtab.js",
+  ]
+
+  outputs = [
+    "$root_out_dir/resources/fast_start_hub/{{source_file_part}}",
+  ]
+}
+
+copy("brand_assets") {
+  sources = [
+    "assets/logo-dark.png",
+    "assets/logo-white.png",
+  ]
+
+  outputs = [
+    "$root_out_dir/resources/fast_start_hub/assets/{{source_file_part}}",
+  ]
+}
+
+copy("icon_assets") {
+  sources = [
+    "assets/icons/icon16.png",
+    "assets/icons/icon32.png",
+    "assets/icons/icon48.png",
+    "assets/icons/icon128.png",
+  ]
+
+  outputs = [
+    "$root_out_dir/resources/fast_start_hub/assets/icons/{{source_file_part}}",
+  ]
+}
+
+copy("wallpaper_assets") {
+  sources = [
+    "assets/wallpapers/dark.png",
+    "assets/wallpapers/light.png",
+  ]
+
+  outputs = [
+    "$root_out_dir/resources/fast_start_hub/assets/wallpapers/{{source_file_part}}",
+  ]
+}
+
+group("resources") {
+  public_deps = [
+    ":brand_assets",
+    ":icon_assets",
+    ":root_files",
+    ":wallpaper_assets",
+  ]
+}

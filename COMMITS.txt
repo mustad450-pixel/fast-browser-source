@@ -1,0 +1,13 @@
+2f43867c87f8fd431429e5ec3fb446e12169d681 Brand Chromium as Fast Browser
+b12c8969968513fb4674a9ced5551af393aa6880 Complete Fast Browser branding and visual identity
+d1c3e89c802d23d44ef32fb544b799c8aba178a2 Add Fast Browser Windows product identity
+034e40f8909cee49583a7e5796ceeb3e81e49c6d Integrate Fast Start Hub into browser build
+19d57c5a0885e349bd9144f76f10b457a6ae7284 Finish Fast Browser desktop UI branding
+1f52b2aa99e35e88d62e316f0febafd7c3b4387a Polish Fast Start Hub v3
+cfaccdf165b812ef8d82aacc9b53de83cb4aadb4 Finalize Fast Browser v1 personal release
+58dfb77589bb49daae85f8dae85568d93a66596d Fix Fast Browser profile creation and production build
+826da8b4c75d6bcb6301a15b4c805d5ddbc98cbd Finalize Fast Browser UI and stable release
+7559c25a6ceb96c85c871e7171e3be70a1ade21b Checkpoint Fast Browser before automatic security updates
+6e69cd4f11098c7b2541a8dcb225bb8572bf9c5d Add Fast Browser About security update check
+cdb67e15d497df5d0fde128d0bb8bb1deb4f5f3b Fast Browser v1.2.1 finalized customizations
+9d0c015f6a7a993111d32731858dc5add11d76c9 Fast Browser v1.2.2 feature and visual updates

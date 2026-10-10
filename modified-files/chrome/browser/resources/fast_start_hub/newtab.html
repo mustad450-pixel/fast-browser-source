@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <title>Fast Browser</title>
+  <link rel="stylesheet" href="newtab.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/icon32.png">
+</head>
+<body data-theme="dark" data-wallpaper="brand">
+  <div class="backdrop" aria-hidden="true"></div>
+  <div class="scrim" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <button class="brand-button" id="brandButton" type="button" title="Focus search" aria-label="Fast Browser home">
+      <img id="brandLogo" src="assets/logo-white.png" alt="Fast Browser">
+    </button>
+    <div class="top-actions">
+      <span id="saveState" class="save-state" aria-live="polite">Saved locally</span>
+      <button class="icon-button" id="settingsButton" type="button" title="Customize Fast Start Hub" aria-label="Customize Fast Start Hub">⚙</button>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section class="hero" aria-label="Search">
+      <form id="searchForm" class="search" autocomplete="off">
+        <span class="search-icon" aria-hidden="true">⌕</span>
+        <input id="searchInput" type="text" spellcheck="false" autocomplete="off" placeholder="Search the web or enter an address" aria-label="Search or enter an address">
+        <kbd class="search-shortcut">Ctrl K</kbd>
+        <button type="submit">Go</button>
+      </form>
+    </section>
+
+    <section id="widgetGrid" class="widget-grid" aria-label="Widgets">
+      <article class="widget size-small" draggable="false" data-widget="clock">
+        <div class="widget-head"><span>Local time</span><span class="widget-actions"><button class="widget-drag-handle" type="button" title="Drag Local time to reorder" aria-label="Drag Local time to reorder">⠿</button><button class="widget-menu-button" type="button" title="Local time options" aria-label="Local time options" aria-haspopup="menu" aria-expanded="false">⋯</button></span></div>
+        <div id="clockTime" class="clock-time">--:--</div>
+        <div id="clockDate" class="muted"></div>
+      </article>
+
+      <article class="widget size-medium" draggable="false" data-widget="weather">
+        <div class="widget-head"><span>Weather</span><span class="widget-actions"><button class="widget-drag-handle" type="button" title="Drag Weather to reorder" aria-label="Drag Weather to reorder">⠿</button><button class="widget-menu-button" type="button" title="Weather options" aria-label="Weather options" aria-haspopup="menu" aria-expanded="false">⋯</button></span></div>
+        <div id="weatherEmpty" class="empty-state">
+          <div class="weather-symbol">◌</div>
+          <div>Choose a city to enable live weather.</div>
+          <button id="weatherSetupButton" class="secondary" type="button">Set location</button>
+        </div>
+        <div id="weatherData" class="weather-data" hidden>
+          <div class="weather-primary">
+            <div id="weatherIcon" class="weather-icon" aria-hidden="true">○</div>
+            <div>
+              <div id="weatherTemp" class="weather-temp">--°</div>
+              <div id="weatherCondition" class="muted">--</div>
+            </div>
+          </div>
+          <div class="weather-meta">
+            <strong id="weatherCity">--</strong>
+            <span id="weatherRange">--</span>
+            <span id="weatherUpdated" class="muted small"></span>
+            <button id="weatherRefresh" class="text-button" type="button">Refresh</button>
+          </div>
+        </div>
+
+      </article>
+
+      <article class="widget size-medium" draggable="false" data-widget="world">
+        <div class="widget-head"><span>World clocks</span><span class="widget-actions"><button class="widget-drag-handle" type="button" title="Drag World clocks to reorder" aria-label="Drag World clocks to reorder">⠿</button><button class="widget-menu-button" type="button" title="World clocks options" aria-label="World clocks options" aria-haspopup="menu" aria-expanded="false">⋯</button></span></div>
+        <div id="worldClocks" class="world-clocks"></div>
+      </article>
+
+      <article class="widget size-medium" draggable="false" data-widget="focus">
+        <div class="widget-head"><span>Focus</span><span class="widget-actions"><button class="widget-drag-handle" type="button" title="Drag Focus to reorder" aria-label="Drag Focus to reorder">⠿</button><button class="widget-menu-button" type="button" title="Focus options" aria-label="Focus options" aria-haspopup="menu" aria-expanded="false">⋯</button></span></div>
+        <div class="focus-wrap">
+          <div id="focusTime" class="focus-time">25:00</div>
+          <div class="focus-progress"><span id="focusProgress"></span></div>
+          <div class="focus-controls">
+            <button id="focusToggle" type="button">Start</button>
+            <button id="focusReset" class="secondary" type="button">Reset</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="widget size-large" draggable="false" data-widget="links">
+        <div class="widget-head"><span>Quick links</span><span class="widget-actions"><button class="widget-drag-handle" type="button" title="Drag Quick links to reorder" aria-label="Drag Quick links to reorder">⠿</button><button class="widget-menu-button" type="button" title="Quick links options" aria-label="Quick links options" aria-haspopup="menu" aria-expanded="false">⋯</button></span></div>
+        <div id="quickLinks" class="quick-links"></div>
+        <button id="addLinkButton" class="secondary add-row" type="button">+ Add shortcut</button>
+      </article>
+
+      <article class="widget size-medium" draggable="false" data-widget="tasks">
+        <div class="widget-head"><span>Tasks <span id="taskCount" class="count-badge"></span></span><span class="widget-actions"><button class="widget-drag-handle" type="button" title="Drag Tasks to reorder" aria-label="Drag Tasks to reorder">⠿</button><button class="widget-menu-button" type="button" title="Tasks options" aria-label="Tasks options" aria-haspopup="menu" aria-expanded="false">⋯</button></span></div>
+        <form id="taskForm" class="compact-form">
+          <input id="taskInput" type="text" maxlength="160" placeholder="Add a task" aria-label="Add a task">
+          <button type="submit">Add</button>
+        </form>
+        <ul id="taskList" class="task-list"></ul>
+        <button id="clearCompleted" class="text-button task-cleanup" type="button" hidden>Clear completed</button>
+      </article>
+
+      <article class="widget size-medium" draggable="false" data-widget="notes">
+        <div class="widget-head"><span>Notes</span><span class="widget-actions"><button class="widget-drag-handle" type="button" title="Drag Notes to reorder" aria-label="Drag Notes to reorder">⠿</button><button class="widget-menu-button" type="button" title="Notes options" aria-label="Notes options" aria-haspopup="menu" aria-expanded="false">⋯</button></span></div>
+        <textarea id="notes" maxlength="12000" placeholder="Write a quick note…" aria-label="Notes"></textarea>
+        <div class="notes-foot"><span>Stored locally</span><span id="notesCount">0</span></div>
+      </article>
+    </section>
+  </main>
+
+  <aside id="settingsPanel" class="settings-panel" hidden aria-label="Fast Start Hub settings">
+    <div class="settings-head">
+      <div><strong>Customize</strong><div class="muted small">Fast Start Hub</div></div>
+      <button id="closeSettings" class="icon-button panel-close" type="button" aria-label="Close">×</button>
+    </div>
+
+    <div class="setting-section first">
+      <strong>Appearance</strong>
+      <label class="setting-row"><span>Start Hub theme</span>
+        <select id="themeSelect"><option value="dark">Dark</option><option value="light">Light</option><option value="system">System</option></select>
+      </label>
+      <label class="setting-row"><span>Background</span>
+        <select id="wallpaperSelect">
+          <option value="brand">Brand wallpaper</option>
+          <option value="gradient">Soft gradient</option>
+          <option value="plain">Plain</option>
+        </select>
+      </label>
+      <label class="setting-row"><span>Text color</span>
+        <select id="textColorSelect">
+          <option value="auto">Automatic</option>
+          <option value="white">White</option>
+          <option value="gray">Light Gray</option>
+          <option value="blue">Blue</option>
+          <option value="green">Green</option>
+          <option value="custom">Custom...</option>
+        </select>
+      </label>
+      <label id="textColorCustomRow" class="setting-row" hidden>
+        <span>Custom color</span>
+        <input id="textColorCustom" class="text-color-picker"
+               type="color" value="#ffffff">
+      </label>
+    </div>
+
+    <div class="setting-section">
+      <strong>Widgets</strong>
+      <div id="widgetToggles" class="toggle-list"></div>
+    </div>
+
+    <div class="setting-section">
+      <strong>Widget size</strong>
+      <div id="sizeControls" class="size-controls"></div>
+      <button id="resetLayout" class="secondary wide-button" type="button">Reset layout</button>
+    </div>
+
+    <div class="setting-section">
+      <strong>Weather city</strong>
+      <form id="weatherForm" class="compact-form stacked">
+        <input id="weatherCityInput" type="text" maxlength="80" placeholder="e.g. Dubai">
+        <button type="submit">Use city</button>
+      </form>
+      <div id="weatherStatus" class="privacy-note">Weather stays off until you choose a city. Open-Meteo receives your chosen city, forecast coordinates, and normal connection data such as your IP address.</div>
+    </div>
+
+    <div class="setting-section">
+      <strong>World clocks</strong>
+      <label class="setting-row"><span>Clock 1</span><select class="tz-select" data-tz-index="0"></select></label>
+      <label class="setting-row"><span>Clock 2</span><select class="tz-select" data-tz-index="1"></select></label>
+      <label class="setting-row"><span>Clock 3</span><select class="tz-select" data-tz-index="2"></select></label>
+    </div>
+
+    <div class="setting-section">
+      <strong>Focus duration</strong>
+      <label class="setting-row"><span>Minutes</span><input id="focusMinutes" class="number-input" type="number" min="5" max="90" step="5"></label>
+    </div>
+
+    <div class="setting-section">
+      <strong>Fast Start Hub data</strong>
+      <div class="privacy-note">Repair v4.2 / Hub 0.5.1</div>
+      <div class="button-row">
+        <button id="exportSettings" class="secondary" type="button">Export</button>
+        <button id="importSettings" class="secondary" type="button">Import</button>
+        <input id="importFile" type="file" accept="application/json,.json" hidden>
+      </div>
+      <div class="privacy-note">Export contains Start Hub preferences, tasks, notes and shortcuts only.</div>
+    </div>
+  </aside>
+
+  <div id="widgetMenu" class="widget-menu" hidden role="menu" aria-label="Widget options">
+    <button type="button" data-widget-action="move-left" role="menuitem">Move earlier</button>
+    <button type="button" data-widget-action="move-right" role="menuitem">Move later</button>
+    <div class="widget-menu-separator" role="separator"></div>
+    <button type="button" data-widget-action="size-small" role="menuitem">Size: Small</button>
+    <button type="button" data-widget-action="size-medium" role="menuitem">Size: Medium</button>
+    <button type="button" data-widget-action="size-large" role="menuitem">Size: Large</button>
+    <button type="button" data-widget-action="size-full" role="menuitem">Size: Full width</button>
+    <div class="widget-menu-separator" role="separator"></div>
+    <button type="button" data-widget-action="hide" role="menuitem">Hide widget</button>
+  </div>
+
+  <dialog id="linkDialog">
+    <form id="linkForm" method="dialog" class="dialog-form">
+      <h2>Add shortcut</h2>
+      <label>Name<input id="linkName" type="text" maxlength="40" required></label>
+      <label>Address<input id="linkUrl" type="text" maxlength="500" placeholder="example.com" required></label>
+      <div class="dialog-actions">
+        <button value="cancel" class="secondary" formnovalidate>Cancel</button>
+        <button id="saveLink" value="default">Add</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="newtab.js"></script>
+</body>
+</html>

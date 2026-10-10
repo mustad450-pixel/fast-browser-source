@@ -1,0 +1,6 @@
+Fast Browser Release: v1.2.2
+Chromium Version: 155.0.8059.12
+Chromium Base Commit: 384c82079f60e0b79cdca6e49efd5cfceefa5b74
+Fast Browser Commit: 9d0c015f6a7a993111d32731858dc5add11d76c9
+Custom Commits: 13
+Changed Files: 67
