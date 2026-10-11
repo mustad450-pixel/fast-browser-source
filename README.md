@@ -43,3 +43,12 @@ specified Chromium base through Fast Browser v1.2.2.
 
 Chromium source and third-party components remain subject to their
 respective upstream licenses.
+
+## License
+
+- Fast Browser's own new files are licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE).
+- Files derived from Chromium remain under the Chromium BSD-style license. See [CHROMIUM-LICENSE.txt](CHROMIUM-LICENSE.txt).
+- Chromium's third-party components keep their own licenses, listed in `chrome://credits`.
+- Attribution notices are in [NOTICE](NOTICE).
+
+This is not legal advice.

@@ -1,0 +1,15 @@
+Fast Browser
+Copyright 2026 mustad450-pixel
+
+Fast Browser is a personal, Chromium-based web browser for Windows.
+
+This product includes software derived from Chromium
+(https://www.chromium.org), Copyright The Chromium Authors, which is
+licensed under the BSD-style license reproduced in CHROMIUM-LICENSE.txt.
+Files in modified-files/ that originate from Chromium remain under that
+license. Chromium's third-party components are subject to their own
+licenses, which are listed in chrome://credits in the browser.
+
+Fast Browser's own new files (for example the Fast Start Hub New Tab page
+under chrome/browser/resources/fast_start_hub/ and the new Windows updater
+files) are licensed under the Apache License, Version 2.0; see LICENSE.
