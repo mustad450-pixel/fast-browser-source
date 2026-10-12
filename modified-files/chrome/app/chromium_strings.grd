@@ -294,15 +294,15 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
         </then>
         <else>
           <message name="IDS_PRODUCT_NAME" desc="The Chrome application name" translateable="false">
-            Fast Browser
+            Fast Krozer
           </message>
           <message name="IDS_SHORT_PRODUCT_NAME" desc="The Chrome application short name." translateable="false">
             Fast
           </message>
         </else>
       </if>
-      <message name="IDS_APP_MENU_YOUR_CHROME_HEADER" desc="Header title for the Your Fast Browser section in the main App Menu">
-        Your Fast Browser
+      <message name="IDS_APP_MENU_YOUR_CHROME_HEADER" desc="Header title for the Your Fast Krozer section in the main App Menu">
+        Your Fast Krozer
       </message>
       <if expr="is_win">
         <message name="IDS_SXS_SHORTCUT_NAME" desc="Unused in Chromium builds" translateable="false">
@@ -312,10 +312,10 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
         <message name="IDS_SHORTCUT_NAME_DEV" desc="Unused in Chromium builds" translateable="false">
         </message>
         <message name="IDS_PRODUCT_DESCRIPTION" desc="Browser description">
-          Fast Browser is a Chromium-based web browser developed by Fast Sector, designed for fast and customizable web browsing.
+          Fast Krozer is a Chromium-based web browser developed by Fast Sector, designed for fast and customizable web browsing.
         </message>
         <message name="IDS_WELCOME_TO_CHROME" desc="Welcoming text announced via screen readers the first time Chrome is launched at the conclusion of installation.">
-          Welcome to Fast Browser; new browser window opened
+          Welcome to Fast Krozer; new browser window opened
         </message>
       </if>
       <if expr="is_macosx or is_linux">
@@ -364,7 +364,7 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
       </if>
       <if expr="not is_macosx and not is_chromeos">
         <message name="IDS_TASK_MANAGER_TITLE" desc="The title of the Task Manager window">
-          Task Manager - Fast Browser
+          Task Manager - Fast Krozer
         </message>
       </if>
       <message name="IDS_TASK_MANAGER_SEARCH_PLACEHOLDER" desc="The placeholder text for the Search bar in the Task Manager window">
@@ -615,13 +615,13 @@ New bookmarks can’t be saved in your account until you delete some. If you sig
       </message>
       <if expr="is_win">
         <message name="IDS_DEFAULT_BROWSER_VISUAL_GUIDED_SETTER_PAGE_TITLE" desc="Title of the default browser visual guided setter page.">
-          Set Fast Browser as your default browser
+          Set Fast Krozer as your default browser
         </message>
         <message name="IDS_DEFAULT_BROWSER_VISUAL_GUIDED_SETTER_HEADER_TITLE" desc="Header text of the default browser visual guided setter.">
-          Set Fast Browser as your default browser
+          Set Fast Krozer as your default browser
         </message>
         <message name="IDS_DEFAULT_BROWSER_VISUAL_GUIDED_SETTER_CONTENT_TITLE" desc="Content title of the default browser visual guided setter.">
-          Set Fast Browser as your default browser
+          Set Fast Krozer as your default browser
         </message>
         <message name="IDS_DEFAULT_BROWSER_VISUAL_GUIDED_SETTER_CONTENT_DESCRIPTION" desc="Body text of the default browser visual guided setter.">
           Keep your passwords, bookmarks, and history perfectly synced across devices by setting Chromium as your default browser.
@@ -857,14 +857,14 @@ Chromium is unable to recover your settings.
       </if>
 
       <message name="IDS_DEFAULT_BROWSER_INFOBAR_TEXT" desc="Text to show in an infobar when Chromium is not the current default browser.">
-        Fast Browser isn't your default browser
+        Fast Krozer isn't your default browser
       </message>
       <message name="IDS_DEFAULT_BROWSER_PIN_INFOBAR_TEXT" desc="Text to show in an infobar when Chromium is not the current default browser and can be pinned to the taskbar.">
-        Set Fast Browser as your default browser and pin it to your taskbar
+        Set Fast Krozer as your default browser and pin it to your taskbar
       </message>
       <if expr="not is_android and not is_chromeos">
         <message name="IDS_DEFAULT_BROWSER_MODAL_TITLE_WITH_SETTINGS_ILLUSTRATION" desc="Title of the default browser modal with settings illustration.">
-          Set Fast Browser as your default browser
+          Set Fast Krozer as your default browser
         </message>
         <message name="IDS_DEFAULT_BROWSER_MODAL_BODY_WITH_SETTINGS_ILLUSTRATION" desc="Body text of the default browser modal with settings illustration.">
           Keep your passwords, bookmarks, and history perfectly synced across devices. Easily access the features you know and love by updating your default browser to Chromium.
@@ -873,7 +873,7 @@ Chromium is unable to recover your settings.
           Keep your passwords, bookmarks, and history perfectly synced across devices. Easily access the features you know and love by updating your default browser to Chromium. Chromium will be pinned to your taskbar for quick access.
         </message>
         <message name="IDS_DEFAULT_BROWSER_MODAL_TITLE_WITHOUT_SETTINGS_ILLUSTRATION" desc="Title of the default browser modal without settings illustration.">
-          Set Fast Browser as your default browser
+          Set Fast Krozer as your default browser
         </message>
         <message name="IDS_DEFAULT_BROWSER_MODAL_BODY_WITHOUT_SETTINGS_ILLUSTRATION" desc="Body text of the default browser modal without settings illustration.">
           Keep your passwords, bookmarks, and history perfectly synced across devices. Easily access the features you know and love by updating your default browser to Chromium.
@@ -882,7 +882,7 @@ Chromium is unable to recover your settings.
           Keep your passwords, bookmarks, and history perfectly synced across devices. Easily access the features you know and love by updating your default browser to Chromium. Chromium will be pinned to your taskbar for quick access.
         </message>
         <message name="IDS_DEFAULT_BROWSER_BUBBLE_DIALOG_TITLE" desc="Title of the dialog prompting the user to set Chromium as the default browser.">
-          Set Fast Browser as your default browser
+          Set Fast Krozer as your default browser
         </message>
         <message name="IDS_DEFAULT_BROWSER_BUBBLE_DIALOG_BODY" desc="Main explanatory text in the default browser dialog.">
           Get easy access to the features you know, love, and trust by setting Chromium as your default browser.
@@ -896,7 +896,7 @@ Chromium is unable to recover your settings.
       </if>
       <if expr="is_win or is_macosx">
         <message name="IDS_PDF_INFOBAR_TEXT" desc="Text to show in an infobar when Chromium is not the default PDF viewer.">
-          Set Fast Browser as your default PDF viewer
+          Set Fast Krozer as your default PDF viewer
         </message>
       </if>
       <if expr="enable_pdf">
@@ -1123,19 +1123,19 @@ Chromium is unable to recover your settings.
 
       <!-- Main Chrome menu -->
       <message name="IDS_APPMENU_TOOLTIP" desc="The tooltip to show for the browser menu">
-        Customize and control Fast Browser
+        Customize and control Fast Krozer
       </message>
 
       <message name="IDS_APPMENU_TOOLTIP_UPDATE_AVAILABLE" desc="The tooltip to show for the browser menu when an update is available">
-        Customize and control Fast Browser. Update is available.
+        Customize and control Fast Krozer. Update is available.
       </message>
 
       <message name="IDS_APPMENU_TOOLTIP_ALERT" desc="The tooltip to show for the browser menu when a non-update alert is displayed">
-        Customize and control Fast Browser. Something needs your attention - click for details.
+        Customize and control Fast Krozer. Something needs your attention - click for details.
       </message>
 
       <message name="IDS_OPEN_IN_CHROME" desc="The text label of the Open in Chrome menu item for the Hosted App app menu">
-        &amp;Open in Fast Browser
+        &amp;Open in Fast Krozer
       </message>
 
       <if expr="use_titlecase and not is_chromeos">
@@ -1147,12 +1147,12 @@ Chromium is unable to recover your settings.
           </then>
           <else>
             <message name="IDS_ABOUT" desc="In Title Case: The text label of the About Chrome menu item">
-              About &amp;Fast Browser
+              About &amp;Fast Krozer
             </message>
           </else>
         </if>
         <message name="IDS_RELAUNCH_TO_UPDATE" desc="In Title Case: The text label of the relaunch to update Chrome menu item">
-          Relaunch to Update &amp;Fast Browser
+          Relaunch to Update &amp;Fast Krozer
         </message>
       </if>
       <if expr="not use_titlecase and not is_chromeos">
@@ -1164,20 +1164,20 @@ Chromium is unable to recover your settings.
           </then>
           <else>
             <message name="IDS_ABOUT" desc="The text label of the About Chrome menu item">
-              About &amp;Fast Browser
+              About &amp;Fast Krozer
             </message>
           </else>
         </if>
         <message name="IDS_RELAUNCH_TO_UPDATE" desc="The text label of the relaunch to update Chrome menu item">
-          Relaunch to update &amp;Fast Browser
+          Relaunch to update &amp;Fast Krozer
         </message>
       </if>
       <if expr="is_chromeos">
         <message name="IDS_ABOUT" desc="The text label of the About Chrome menu item">
-          About &amp;Fast Browser
+          About &amp;Fast Krozer
         </message>
         <message name="IDS_RELAUNCH_TO_UPDATE" desc="The text label of the relaunch to update ChromeOS menu item">
-          Relaunch to update &amp;Fast BrowserOS
+          Relaunch to update &amp;Fast KrozerOS
         </message>
       </if>
 
@@ -1196,13 +1196,13 @@ Chromium is unable to recover your settings.
       <!-- Page menu. Android has separate strings for its menu -->
       <if expr="not is_android">
         <message name="IDS_CUSTOMIZE_CHROME" desc="The text label of the Customize Chrome menu item">
-          C&amp;ustomize your Fast Browser
+          C&amp;ustomize your Fast Krozer
         </message>
         <message name="IDS_OTHER_CHROME_PROFILES_TITLE" desc="The title of the Other Chrome profiles section">
-          Other Fast Browser profiles
+          Other Fast Krozer profiles
         </message>
         <message name="IDS_MANAGE_CHROME_PROFILES" desc="The text label of the manage chrome profile item">
-          &amp;Manage Fast Browser profiles
+          &amp;Manage Fast Krozer profiles
         </message>
       </if>
 
@@ -1232,13 +1232,13 @@ Chromium is unable to recover your settings.
 
       <!-- Session Restore Infobar -->
       <message name="IDS_SESSION_RESTORE_TURN_OFF_RESTORE_FROM_SESSION" desc="Message that appears in the session restore infobar when the user has restored their tabs once.">
-        Continue where you left off: Fast Browser restored your tabs from your last session. You can turn this off in
+        Continue where you left off: Fast Krozer restored your tabs from your last session. You can turn this off in
       </message>
       <message name="IDS_SESSION_RESTORE_TURN_OFF_RESTORE_FROM_RESTART" desc="Message that appears in the session restore infobar when the user has restored their tabs multiple times.">
-        Continue where you left off: Fast Browser restores your tabs every time you restart. To turn this off, go to
+        Continue where you left off: Fast Krozer restores your tabs every time you restart. To turn this off, go to
       </message>
       <message name="IDS_SESSION_RESTORE_TURN_ON" desc="Message that appears in the session restore infobar to get the user to opt-in into session restore.">
-        Continue where you left off: Fast Browser can restore your tabs every time you restart. To turn this on, go to
+        Continue where you left off: Fast Krozer can restore your tabs every time you restart. To turn this on, go to
       </message>
       <message name="IDS_SESSION_RESTORE_LINK" desc="Text for the link in the session restore infobar to open the Settings page.">
          Settings.
@@ -1256,7 +1256,7 @@ Chromium is unable to recover your settings.
         You can keep chatting with AI Mode without switching tabs. To get started, sign in to Chromium. You'll also get your passwords and more on all your devices.
       </message>
       <message name="IDS_AI_SIGNIN_PROMO_AVATAR_PILL_TEXT" translateable="false" meaning="Text shown on the expanded avatar pill when the Signin Search AI Bubble promo is shown to the user">
-        Sign in to Fast Browser?
+        Sign in to Fast Krozer?
       </message>
 
       <if expr="toolkit_views">
@@ -1264,16 +1264,16 @@ Chromium is unable to recover your settings.
           Link your Chromium data to this account?
         </message>
         <message name="IDS_ENTERPRISE_SIGNIN_EXPLANATION_WITHOUT_PROFILE_CREATION" desc="The warning message displayed to an enterprise user about to link their profile to their Google account. This message is followed by a 'Learn more' link.">
-          You are signing in with a managed account and giving its administrator control over your Chromium profile. Your Fast Browser data, such as your apps, bookmarks, history, passwords, and other settings will become permanently tied to <ph name="USER_NAME">$1<ex>pat@example.com</ex></ph>. You will be able to delete this data via the Google Accounts Dashboard, but you will not be able to associate this data with another account. <ph name="LEARN_MORE">$2<ex>Learn more</ex></ph>
+          You are signing in with a managed account and giving its administrator control over your Chromium profile. Your Fast Krozer data, such as your apps, bookmarks, history, passwords, and other settings will become permanently tied to <ph name="USER_NAME">$1<ex>pat@example.com</ex></ph>. You will be able to delete this data via the Google Accounts Dashboard, but you will not be able to associate this data with another account. <ph name="LEARN_MORE">$2<ex>Learn more</ex></ph>
         </message>
         <message name="IDS_ENTERPRISE_SIGNIN_EXPLANATION_WITH_PROFILE_CREATION" desc="The warning message displayed to an enterprise user about to link their profile to their Google account. Additionally notifies the user that they can create a new profile instead. This message is followed by a 'Learn more' link.">
-          You are signing in with a managed account and giving its administrator control over your Chromium profile. Your Fast Browser data, such as your apps, bookmarks, history, passwords, and other settings will become permanently tied to <ph name="USER_NAME">$1<ex>pat@example.com</ex></ph>. You will be able to delete this data via the Google Accounts Dashboard, but you will not be able to associate this data with another account. You can optionally create a new profile to keep your existing Chromium data separate. <ph name="LEARN_MORE">$2<ex>Learn more</ex></ph>
+          You are signing in with a managed account and giving its administrator control over your Chromium profile. Your Fast Krozer data, such as your apps, bookmarks, history, passwords, and other settings will become permanently tied to <ph name="USER_NAME">$1<ex>pat@example.com</ex></ph>. You will be able to delete this data via the Google Accounts Dashboard, but you will not be able to associate this data with another account. You can optionally create a new profile to keep your existing Chromium data separate. <ph name="LEARN_MORE">$2<ex>Learn more</ex></ph>
         </message>
         <message name="IDS_ENTERPRISE_VALUE_PROPOSITION_PROFILE_REQUIRED_BY_ORG_KNOWN_DOMAIN_TITLE" desc="Title of the screen in the profile creation flow where the user is asked whether they want to confirm signing in to Chromium with their enterprise account when it is mandatory to sign in to Chromium with the enterprise account.">
           Your organization, <ph name="MANAGER">$1<ex>manager.com</ex></ph>, requires you to sign into Chromium
         </message>
         <message name="IDS_ENTERPRISE_VALUE_PROPOSITION_PROFILE_SUGGESTED_TITLE" desc="Title of the screen in the profile creation flow where the user is asked whether they want to confirm signing in to Chromium with their enterprise account.">
-          Sign in to Fast Browser?
+          Sign in to Fast Krozer?
         </message>
       </if>
 
@@ -1318,7 +1318,7 @@ Chromium is unable to recover your settings.
 
       <!-- NTP strings -->
       <message name="IDS_NTP_CUSTOMIZE_TOOLBAR_CATEGORY_YOUR_CHROME" desc="The label for the category of actions that involve your Chrome data, such as opening the password manager or clearing browsing data.">
-        Your Fast Browser
+        Your Fast Krozer
       </message>
       <if expr="_is_chrome_for_testing_branded">
         <then>
@@ -1328,36 +1328,36 @@ Chromium is unable to recover your settings.
         </then>
         <else>
           <message name="IDS_NTP_CUSTOMIZE_BUTTON_LABEL" desc="Label for button on the New Tab Page that opens dialog to customize Chromium browser.">
-            Customize Fast Browser
+            Customize Fast Krozer
           </message>
         </else>
       </if>
       <message name="IDS_NTP_MODULES_SETUP_LIST_TITLE" desc="Title shown at the top of the Setup List card.">
-        Make Fast Browser Yours
+        Make Fast Krozer Yours
       </message>
       <message name="IDS_NTP_CUSTOMIZE_CHROME_RESET_TO_CLASSIC_CHROME_LABEL" desc="The label for the button for resetting theme back to default chrome in the New Tab Page customize chrome side panel.">
-        Reset to Default Fast Browser
+        Reset to Default Fast Krozer
       </message>
 
       <!-- New Tab Page browser feature promotions. -->
       <if expr="not is_android">
         <message name="IDS_NTP_CUSTOMIZATION_PROMO" desc="The text shown in the body of the New Tab Page browser customization promotion">
-          Customize Fast Browser to give your browser a new look
+          Customize Fast Krozer to give your browser a new look
         </message>
         <message name="IDS_NTP_MOBILE_PROMO_TITLE" desc="Title of the NTP promo that promotes the browser on mobile.">
-          Get Fast Browser on your phone
+          Get Fast Krozer on your phone
         </message>
         <message name="IDS_NTP_MOBILE_PROMO_PASSWORDS_TITLE" desc="Title of the NTP promo that promotes the browser on mobile for passwords.">
-          Get the Fast Browser app to save passwords on the go
+          Get the Fast Krozer app to save passwords on the go
         </message>
       </if>
 
       <!-- Customize Chrome Auto Promo Strings -->
-      <message name="IDS_IPH_CUSTOMIZE_CHROME_AUTO_OPEN_BODY" desc="The description of the IPH to auto open Customize Fast Browser">
-        Customize Fast Browser to give it a new look
+      <message name="IDS_IPH_CUSTOMIZE_CHROME_AUTO_OPEN_BODY" desc="The description of the IPH to auto open Customize Fast Krozer">
+        Customize Fast Krozer to give it a new look
       </message>
-      <message name="IDS_IPH_CUSTOMIZE_CHROME_AUTO_OPEN_SCREENREADER" desc="The screenreader of the IPH to auto open Customize Fast Browser" is_accessibility_with_no_ui="true">
-        Click the Customize Fast Browser button on the New Tab Page to give Fast Browser a new look
+      <message name="IDS_IPH_CUSTOMIZE_CHROME_AUTO_OPEN_SCREENREADER" desc="The screenreader of the IPH to auto open Customize Fast Krozer" is_accessibility_with_no_ui="true">
+        Click the Customize Fast Krozer button on the New Tab Page to give Fast Krozer a new look
       </message>
 
       <!-- Realbox Strings -->
@@ -1379,7 +1379,7 @@ Chromium is unable to recover your settings.
       <if expr="not use_titlecase">
         <message name="IDS_AVATAR_BUTTON_INTERCEPT_BUBBLE_CHROME_SIGNIN_TEXT"
           desc="Text asking the user to sign into Chromium while the Chromium Signin Bubble intercept is shown.">
-          Sign in to Fast Browser?
+          Sign in to Fast Krozer?
         </message>
         <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNIN_TITLE" desc="Title of the Chromium Signin Bubble intercept that is shown when a signed out user signs in on the web with it's first account.">
           Make Chromium your own
@@ -1405,7 +1405,7 @@ Chromium is unable to recover your settings.
 
       <if expr="not is_chromeos and not is_android">
         <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_CREATE_BUBBLE_TITLE_V2" desc="Title of the web signin interception bubble used when Explicit browser Sign in is enabled">
-          Sign in to Fast Browser in a new profile?
+          Sign in to Fast Krozer in a new profile?
         </message>
         <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_SWITCH_BUBBLE_TITLE" desc="Title for the profile switch interception bubble">
           Switch to existing Chromium profile?
@@ -1468,27 +1468,27 @@ Chromium is unable to recover your settings.
         <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNIN_IPH_TEXT_SIGNIN_REMINDER_SCREENREADER" desc="This string is the accessibility text of a reminder message, which is intended to help users understand that they have been signed in to Chrome.">
           While you're signed in, you can use your passwords and more from your Google Account in Chromium. <ph name="SHORTCUT">$1<ex>CTRL+SHIFT+M</ex></ph> can change your Google services settings.
         </message>
-        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_NO_UNSYNCED_TITLE" desc="This is the title of a confirmation dialog and asks the user to confirm that they want to sign out of Chromium. It appears when the user opens the Chromium Profile Menu and chooses 'Sign out of Fast Browser'. This title is before the 'Your passwords and other Chromium data are saved to your Google Account, and will be removed from this device. To use them in the future, sign back in to Chromium.' string. The tone should be straightforward.">
-          Sign out of Fast Browser?
+        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_NO_UNSYNCED_TITLE" desc="This is the title of a confirmation dialog and asks the user to confirm that they want to sign out of Chromium. It appears when the user opens the Chromium Profile Menu and chooses 'Sign out of Fast Krozer'. This title is before the 'Your passwords and other Chromium data are saved to your Google Account, and will be removed from this device. To use them in the future, sign back in to Chromium.' string. The tone should be straightforward.">
+          Sign out of Fast Krozer?
         </message>
-        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_NO_UNSYNCED_BODY" desc="This is the subtitle of a confirmation dialog that asks the user to confirm that they want to sign out of Chromium. It appears when the user opens the Chromium Profile Menu and chooses 'Sign out of Fast Browser'. This subtitle is after the 'Sign out of Fast Browser?' string. The tone should be calm, because we want to explain to the user that their data is saved; however, we want to set expectations by clarifying that the data will be removed from the device. This string provides a path to resolution because it explains how the user can see their data again (by signing back in).">
+        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_NO_UNSYNCED_BODY" desc="This is the subtitle of a confirmation dialog that asks the user to confirm that they want to sign out of Chromium. It appears when the user opens the Chromium Profile Menu and chooses 'Sign out of Fast Krozer'. This subtitle is after the 'Sign out of Fast Krozer?' string. The tone should be calm, because we want to explain to the user that their data is saved; however, we want to set expectations by clarifying that the data will be removed from the device. This string provides a path to resolution because it explains how the user can see their data again (by signing back in).">
           Your passwords, payment methods, and addresses that you saved in your Google Account will be removed from this device. To use them again in Chromium, sign back in.
         </message>
-        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_NO_UNSYNCED_DATA_BODY" desc="This is the subtitle of a confirmation dialog that asks the user to confirm that they want to sign out of Chromium. It appears when the user opens the Chromium Profile Menu and chooses 'Sign out of Fast Browser'. This subtitle is after the 'Sign out of Fast Browser?' string. The tone should be calm, because we want to explain to the user that their data is saved; however, we want to set expectations by clarifying that the data will be removed from the device. This string provides a path to resolution because it explains how the user can see their data again (by signing back in).">
+        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_NO_UNSYNCED_DATA_BODY" desc="This is the subtitle of a confirmation dialog that asks the user to confirm that they want to sign out of Chromium. It appears when the user opens the Chromium Profile Menu and chooses 'Sign out of Fast Krozer'. This subtitle is after the 'Sign out of Fast Krozer?' string. The tone should be calm, because we want to explain to the user that their data is saved; however, we want to set expectations by clarifying that the data will be removed from the device. This string provides a path to resolution because it explains how the user can see their data again (by signing back in).">
           Your passwords and other Chromium data that you saved in your Google Account will be removed from this device. To use them again in Chromium, sign back in.
         </message>
-        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_VERIFY_BODY" desc="This is the subtitle of an error message dialog that appears when the user opens the Chromium Profile Menu and chooses 'Sign out of Fast Browser'. The error message appears when the user has saved some data (like a password or payment method) to Chromium, but Chromium wasn't able to save the data to the user's Google Account due to a sign-in error; we want to set expectations by clarifying that the data will be removed from the device. This subtitle is after the 'Some data isn’t saved yet' string. The tone should be cautionary, because we want to explain to the user that their data is not saved and will be deleted if they sign out. This string provides a path to resolution because it explains how the user can properly save their data before they sign out of Chromium.">
+        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_VERIFY_BODY" desc="This is the subtitle of an error message dialog that appears when the user opens the Chromium Profile Menu and chooses 'Sign out of Fast Krozer'. The error message appears when the user has saved some data (like a password or payment method) to Chromium, but Chromium wasn't able to save the data to the user's Google Account due to a sign-in error; we want to set expectations by clarifying that the data will be removed from the device. This subtitle is after the 'Some data isn’t saved yet' string. The tone should be cautionary, because we want to explain to the user that their data is not saved and will be deleted if they sign out. This string provides a path to resolution because it explains how the user can properly save their data before they sign out of Chromium.">
           Chromium needs to verify it’s you before some data can be saved in your Google Account and used on all your devices. If you sign out now, this data will be deleted.
         </message>
-        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_VERIFY_BODY_WITH_COUNT" desc="This is the subtitle of an error message dialog that appears when the user opens the Chromium Profile Menu and chooses 'Sign out of Fast Browser'. The error message appears when the user has saved some data (like a password or payment method) to Chromium, but Chromium wasn't able to save the data to the user's Google Account due to a sign-in error; we want to set expectations by clarifying that the data will be removed from the device. This subtitle is after the 'Some data isn’t saved yet' string. The tone should be cautionary, because we want to explain to the user that their data is not saved and will be deleted if they sign out. This string provides a path to resolution because it explains how the user can properly save their data before they sign out of Chromium.">
+        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_VERIFY_BODY_WITH_COUNT" desc="This is the subtitle of an error message dialog that appears when the user opens the Chromium Profile Menu and chooses 'Sign out of Fast Krozer'. The error message appears when the user has saved some data (like a password or payment method) to Chromium, but Chromium wasn't able to save the data to the user's Google Account due to a sign-in error; we want to set expectations by clarifying that the data will be removed from the device. This subtitle is after the 'Some data isn’t saved yet' string. The tone should be cautionary, because we want to explain to the user that their data is not saved and will be deleted if they sign out. This string provides a path to resolution because it explains how the user can properly save their data before they sign out of Chromium.">
           {count, plural,
               =1 {Chromium needs to verify it’s you before some data can be saved in your Google Account and used on all your devices. If you sign out now, this data (1 item) will be deleted.}
               other {Chromium needs to verify it’s you before some data can be saved in your Google Account and used on all your devices. If you sign out now, this data ({count} items) will be deleted.}}
         </message>
-        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_UNSYNCED_BODY"  desc="This is the subtitle of an error message dialog that appears when the user opens the Chromium Profile Menu and chooses 'Sign out of Fast Browser'. The error message appears when the user tries to sign out immediately after having saved saved some data (like a password or payment method) to Chromium and Chromium hasn't had time to save that data to the user's Google Account yet. This subtitle is after the 'Some data isn't saved yet' string. The tone should be cautionary, because we want to explain to the user that their data is not saved to their Google Account. This string asks the user to wait a few minutes before trying to sign out again.">
+        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_UNSYNCED_BODY"  desc="This is the subtitle of an error message dialog that appears when the user opens the Chromium Profile Menu and chooses 'Sign out of Fast Krozer'. The error message appears when the user tries to sign out immediately after having saved saved some data (like a password or payment method) to Chromium and Chromium hasn't had time to save that data to the user's Google Account yet. This subtitle is after the 'Some data isn't saved yet' string. The tone should be cautionary, because we want to explain to the user that their data is not saved to their Google Account. This string asks the user to wait a few minutes before trying to sign out again.">
           Some of your Chromium data hasn't been saved in your Google Account yet. Try waiting a few minutes before signing out. If you sign out now, this data will be deleted.
         </message>
-        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_UNSYNCED_BODY_WITH_COUNT"  desc="This is the subtitle of an error message dialog that appears when the user opens the Chromium Profile Menu and chooses 'Sign out of Fast Browser'. The error message appears when the user tries to sign out immediately after having saved saved some data (like a password or payment method) to Chromium and Chromium hasn't had time to save that data to the user's Google Account yet. This subtitle is after the 'Some data isn't saved yet' string. The tone should be cautionary, because we want to explain to the user that their data is not saved to their Google Account. This string asks the user to wait a few minutes before trying to sign out again.">
+        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_UNSYNCED_BODY_WITH_COUNT"  desc="This is the subtitle of an error message dialog that appears when the user opens the Chromium Profile Menu and chooses 'Sign out of Fast Krozer'. The error message appears when the user tries to sign out immediately after having saved saved some data (like a password or payment method) to Chromium and Chromium hasn't had time to save that data to the user's Google Account yet. This subtitle is after the 'Some data isn't saved yet' string. The tone should be cautionary, because we want to explain to the user that their data is not saved to their Google Account. This string asks the user to wait a few minutes before trying to sign out again.">
           {count, plural,
               =1 {Some of your Chromium data hasn't been saved in your Google Account yet. Try waiting a few minutes before signing out. If you sign out now, this data (1 item) will be deleted.}
               other {Some of your Chromium data hasn't been saved in your Google Account yet. Try waiting a few minutes before signing out. If you sign out now, this data ({count} items) will be deleted.}}
@@ -1497,7 +1497,7 @@ Chromium is unable to recover your settings.
           You’ll be signed out of most sites when you close all Chromium windows, except your Google Account if you’re signed in to Chromium. To let sites remember you, <ph name="SETTINGS_LINK">$1<ex>go to settings</ex></ph>.
         </message>
         <message name="IDS_AVATAR_BUTTON_INTERCEPT_BUBBLE_CHROME_SIGNIN_ACCESSIBILITY_LABEL"
-          desc="Accessibility label (read by the accessibility tools) of the avatar button when the Chromium Signin bubble is shown. The text implies that the expanded bubble underneath the button is closable by clicking on the button. The actual text is 'Sign in to Fast Browser?' with a bubble shown under it.">
+          desc="Accessibility label (read by the accessibility tools) of the avatar button when the Chromium Signin bubble is shown. The text implies that the expanded bubble underneath the button is closable by clicking on the button. The actual text is 'Sign in to Fast Krozer?' with a bubble shown under it.">
           Click to close the Chromium sign-in dialog
         </message>
         <message name="IDS_AVATAR_BUTTON_SIGNIN_PENDING_ACCESSIBILITY_LABEL"
@@ -1506,10 +1506,10 @@ Chromium is unable to recover your settings.
         </message>
 
         <!-- Autofill Sign In Promo Bubble -->
-        <message name="IDS_AUTOFILL_SIGNIN_PROMO_SUBTITLE_PASSWORD" desc="This is the body text of a confirmation message and means that the password was only saved locally to the user's device (not in their Google Account). It appears when the user is not signed in to Chromium and is after the 'Password saved to this device' string. If the user wants to save this data to their Google Account, they can click the 'Sign in to Fast Browser' button at the bottom of this message. The tone should be motivating.">
+        <message name="IDS_AUTOFILL_SIGNIN_PROMO_SUBTITLE_PASSWORD" desc="This is the body text of a confirmation message and means that the password was only saved locally to the user's device (not in their Google Account). It appears when the user is not signed in to Chromium and is after the 'Password saved to this device' string. If the user wants to save this data to their Google Account, they can click the 'Sign in to Fast Krozer' button at the bottom of this message. The tone should be motivating.">
           To get your passwords and more on all your devices, sign in to Chromium. This password will be saved in your Google Account after you sign in.
         </message>
-        <message name="IDS_AUTOFILL_SIGNIN_PROMO_SUBTITLE_ADDRESS" desc="This is the body text of a confirmation message and means that the address was only saved locally to the user's device (not in their Google Account). It appears when the user is not signed in to Chromium and is after the 'Address saved to this device' string. If the user wants to save this data to their Google Account, they can click the 'Sign in to Fast Browser' button at the bottom of this message. The tone should be motivating.">
+        <message name="IDS_AUTOFILL_SIGNIN_PROMO_SUBTITLE_ADDRESS" desc="This is the body text of a confirmation message and means that the address was only saved locally to the user's device (not in their Google Account). It appears when the user is not signed in to Chromium and is after the 'Address saved to this device' string. If the user wants to save this data to their Google Account, they can click the 'Sign in to Fast Krozer' button at the bottom of this message. The tone should be motivating.">
           To get your addresses and more on all your devices, sign in to Chromium. This address will be saved in your Google Account after you sign in.
         </message>
       </if>
@@ -1527,10 +1527,10 @@ Chromium is unable to recover your settings.
       <if expr="not is_chromeos and not is_android">
         <!-- Profile Customization Web UI -->
         <message name="IDS_PROFILE_CUSTOMIZATION_TEXT" desc="Text of the profile customization bubble">
-          Customize your new Fast Browser profile
+          Customize your new Fast Krozer profile
         </message>
         <message name="IDS_PROFILE_CUSTOMIZATION_TITLE_V2" desc="Title of the profile customization dialog">
-          Customize your Fast Browser profile
+          Customize your Fast Krozer profile
         </message>
       </if>
 
@@ -1567,51 +1567,51 @@ Chromium is unable to recover your settings.
 
       <!-- Profile Menu -->
       <message name="IDS_PROFILE_MENU_SIGNIN_PROMO_BUTTON" meaning="Button" desc="Text for the button in the sign-in promo in the profile menu when the used is signed out.">
-        Sign in to Fast Browser
+        Sign in to Fast Krozer
       </message>
       <message name="IDS_PROFILE_MENU_PLACEHOLDER_PROFILE_NAME" desc="Placeholder profile name, used when the user did not enter a name for their profile.">
-        Your Fast Browser
+        Your Fast Krozer
       </message>
       <if expr="not use_titlecase">
-        <message name="IDS_PROFILE_MENU_SIGN_OUT_WHEN_SIGNIN_PENDING" desc="The text label of the Sign out of Fast Browser button in the Profile Menu when the user is in sign in pending state.">
-          Remove account from Fast Browser
+        <message name="IDS_PROFILE_MENU_SIGN_OUT_WHEN_SIGNIN_PENDING" desc="The text label of the Sign out of Fast Krozer button in the Profile Menu when the user is in sign in pending state.">
+          Remove account from Fast Krozer
         </message>
         <message name="IDS_PROFILE_MENU_PROFILES_LIST_TITLE" desc="Title in the profile menu for the list of 'other Chromium profiles'.">
-          Other Fast Browser profiles
+          Other Fast Krozer profiles
         </message>
-        <message name="IDS_PROFILE_MENU_MANAGE_PROFILES" desc="The text label of the Manage Fast Browser Profiles item in the Profile Menu.">
-          Manage Fast Browser profiles
+        <message name="IDS_PROFILE_MENU_MANAGE_PROFILES" desc="The text label of the Manage Fast Krozer Profiles item in the Profile Menu.">
+          Manage Fast Krozer profiles
         </message>
         <message name="IDS_PROFILE_MENU_SIGN_OUT"
-          desc="The text label of the Sign out of Fast Browser button in the Profile Menu.">
-          Sign out of Fast Browser
+          desc="The text label of the Sign out of Fast Krozer button in the Profile Menu.">
+          Sign out of Fast Krozer
         </message>
         <message name="IDS_PROFILE_MENU_ADD_PROFILE" desc="The text label of the add new profile item in the profile menu.">
-          Add Fast Browser profile
+          Add Fast Krozer profile
         </message>
       </if>
       <if expr="use_titlecase">
-        <message name="IDS_PROFILE_MENU_SIGN_OUT_WHEN_SIGNIN_PENDING" desc="The text label of the Sign out of Fast Browser button in the Profile Menu when the user is in sign in pending state.">
-          Remove Account from Fast Browser
+        <message name="IDS_PROFILE_MENU_SIGN_OUT_WHEN_SIGNIN_PENDING" desc="The text label of the Sign out of Fast Krozer button in the Profile Menu when the user is in sign in pending state.">
+          Remove Account from Fast Krozer
         </message>
         <message name="IDS_PROFILE_MENU_PROFILES_LIST_TITLE" desc="Title in the profile menu for the list of 'other Chromium profiles'.">
-          Other Fast Browser Profiles
+          Other Fast Krozer Profiles
         </message>
-        <message name="IDS_PROFILE_MENU_MANAGE_PROFILES" desc="The text label of the Manage Fast Browser Profiles item in the Profile Menu.">
-          Manage Fast Browser Profiles
+        <message name="IDS_PROFILE_MENU_MANAGE_PROFILES" desc="The text label of the Manage Fast Krozer Profiles item in the Profile Menu.">
+          Manage Fast Krozer Profiles
         </message>
         <message name="IDS_PROFILE_MENU_SIGN_OUT"
-          desc="The text label of the Sign out of Fast Browser button in the Profile Menu.">
-          Sign Out of Fast Browser
+          desc="The text label of the Sign out of Fast Krozer button in the Profile Menu.">
+          Sign Out of Fast Krozer
         </message>
         <message name="IDS_PROFILE_MENU_ADD_PROFILE" desc="The text label of the add new profile item in the profile menu.">
-          Add Fast Browser Profile
+          Add Fast Krozer Profile
         </message>
       </if>
 
       <!-- Sign in on your phone (QR code) strings  -->
       <message name="IDS_QR_CODE_BUBBLE_SIGNIN_ON_PHONE_TITLE" desc="Title of the QR Code bubble showing a code for the user to sign in on their phone.">
-        Sign in to Fast Browser on your phone
+        Sign in to Fast Krozer on your phone
       </message>
       <message name="IDS_QR_CODE_BUBBLE_SIGNIN_ON_PHONE_QR_CODE_ALT_TEXT" desc="Accessibility label for the QR code image in the cross-device sign-in promo bubble.">
         QR code to sign in to Chromium as <ph name="USER_NAME">$1<ex>Elisa Beckett</ex></ph>
@@ -1681,7 +1681,7 @@ Chromium is unable to recover your settings.
       <!-- Mac First-run dialog messages -->
       <if expr="is_macosx">
         <message name="IDS_FIRSTRUN_DLG_MAC_SET_DEFAULT_BROWSER_LABEL" desc="Label for checkbox that sets the default browser">
-          Set Fast Browser as your default browser
+          Set Fast Krozer as your default browser
         </message>
       </if>
 
@@ -1819,7 +1819,7 @@ Chromium is unable to recover your settings.
         <!-- Sign-in Promo Avatar Button Label Desktop -->
         <if expr="not use_titlecase">
           <message name="IDS_AVATAR_BUTTON_SIGNIN_PROMO" desc="The avatar button promo label inviting the user to sign-in. Shown for signed out users, and signed in to the web only. When clicked, it opens the profile menu.">
-            Sign in to Fast Browser?
+            Sign in to Fast Krozer?
           </message>
         </if>
         <if expr="use_titlecase">
@@ -2013,12 +2013,12 @@ Chromium is unable to recover your settings.
 
       <!-- Side panel strings -->
       <message name="IDS_SIDE_PANEL_CUSTOMIZE_CHROME_TITLE" desc="The name of the Customize Chrome feature in the side panel combo box.">
-        Customize Fast Browser
+        Customize Fast Krozer
       </message>
 
       <!-- History Strings -->
       <message name="IDS_HISTORY_HISTORY_MENU_ITEM" desc="Label displayed in history sidebar button to display history.">
-        Fast Browser history
+        Fast Krozer history
       </message>
 
       <!-- Lens Overlay Strings -->
@@ -2622,16 +2622,16 @@ Chromium is unable to recover your settings.
         </message>
         <!-- Profile Picker -->
         <message name="IDS_PROFILE_PICKER_MAIN_VIEW_TITLE" desc="Profile picker main view title">
-          Welcome to Fast Browser profiles
+          Welcome to Fast Krozer profiles
         </message>
         <message name="IDS_PROFILE_PICKER_MAIN_VIEW_TITLE_V2" desc="Title of a screen that lets the user choose which profile to use when browsing the web. *If the EN source doesn't translate well in your language, an alternative string 'Which Chromium profile would you like to use?' may be used instead">
-          Who's using Fast Browser?
+          Who's using Fast Krozer?
         </message>
         <message name="IDS_PROFILE_PICKER_MAIN_VIEW_SUBTITLE" desc="Profile picker main view subtitle">
-          With Fast Browser profiles, you can separate all your Fast Browser stuff. Create profiles for friends and family, or split between work and fun.
+          With Fast Krozer profiles, you can separate all your Fast Krozer stuff. Create profiles for friends and family, or split between work and fun.
         </message>
         <message name="IDS_PROFILE_PICKER_PROFILE_CREATION_FLOW_PROFILE_TYPE_CHOICE_TITLE" desc="Profile picker profile type choice title">
-          Set up your new Fast Browser profile
+          Set up your new Fast Krozer profile
         </message>
         <message name="IDS_PROFILE_PICKER_IPH_FOR_PROFILES_TEXT" desc="Text of the IPH bubble for introducing profiles.">
           Each profile holds its own Chromium info like bookmarks, history, passwords, and more
@@ -2640,10 +2640,10 @@ Chromium is unable to recover your settings.
           If you share a device, friends and family can browse separately and set up Chromium just the way they want
         </message>
         <message name="IDS_PROFILE_PICKER_PROFILE_SWITCH_TITLE" desc="Profile picker profile switch title">
-          Switch to existing Fast Browser profile?
+          Switch to existing Fast Krozer profile?
         </message>
         <message name="IDS_PROFILE_PICKER_PROFILE_SWITCH_SUBTITLE" desc="Profile picker profile switch subtitle">
-          A Fast Browser profile with this account already exists on this device
+          A Fast Krozer profile with this account already exists on this device
         </message>
         <message name="IDS_PROFILE_PICKER_FORCE_SIGN_IN_ERROR_DIALOG_NOT_SUPPORTED_BY_GLIC_FLOW_BODY" desc="Body of the force sign in error dialog, the dialog is shown when the user attempts to reauth a profile while in the Glic version. This flow is not supported in this version of the picker. The overall purpose of the dialog is to redirect the user to the regular picker to finalize the reauth." translateable="false">
           To use this profile with Glic, open Chromium and sign in
@@ -2651,12 +2651,12 @@ Chromium is unable to recover your settings.
 
         <!-- First Run Experience -->
         <message name="IDS_FRE_WELCOME_START_BUTTON_LABEL" desc="This string is found on a primary button that takes the user into the main browser experience. It is a verb-based call to action. (CHAR LIMIT = 20)">
-          Start Fast Browser
+          Start Fast Krozer
         </message>
 
         <message name="IDS_FRE_SIGN_IN_TITLE_0" meaning="Title"
           desc="This string appears as a heading on a full-page screen that asks the user to sign in to Chromium with their Google Account. It appears when the user launches Chromium for the first time. When they sign in, they can personalize and customize Chromium and remember their settings in their Google Account. The tone should be inviting and alluring.">
-          Sign in to Fast Browser
+          Sign in to Fast Krozer
         </message>
         <message name="IDS_FRE_GET_YOUR_BROWSER_READY_TITLE" meaning="Title" desc="It appears when the user launches Chromium for the first time on the page that is displayed before the sign in page. When they sign in, they can personalize and customize Chromium and remember their settings in their Google Account. The tone should be inviting and alluring.">
           Let's get your Chromium ready
@@ -2664,7 +2664,7 @@ Chromium is unable to recover your settings.
 
         <!-- Default Browser Promo -->
         <message name="IDS_FRE_DEFAULT_BROWSER_TITLE" desc="Title for the page that prompts user to set Chromium as their default browser in the first run experience.">
-          Set Fast Browser as your default browser
+          Set Fast Krozer as your default browser
         </message>
         <message name="IDS_FRE_DEFAULT_BROWSER_AND_PINNING_TITLE" desc="Title for the page that prompts user to set Chromium as their default browser and pin to taskbar in the first run experience.">
           Use Chromium by default and get it pinned
@@ -2676,16 +2676,16 @@ Chromium is unable to recover your settings.
           Open links in Chromium from any app. Plus for easy access, it gets pinned to your taskbar.
         </message>
         <message name="IDS_FRE_DEFAULT_BROWSER_ILLUSTRATION_ALT_TEXT" desc="Alt text for the illustration in the page that prompts user to set Chromium as their default browser.">
-          Fast Browser logo inside a computer screen.
+          Fast Krozer logo inside a computer screen.
         </message>
         <message name="IDS_APP_MENU_TOOLTIP_DEFAULT_PROMPT" desc="The tooltip to show for the browser menu when the default browser prompt is displayed">
-          Customize and control Fast Browser. Set Fast Browser as your default.
+          Customize and control Fast Krozer. Set Fast Krozer as your default.
         </message>
         <message name="IDS_APP_MENU_BUTTON_DEFAULT_PROMPT" desc="Text in the browser menu chip indicating that the user can change their default browser">
-          Set Fast Browser as your default
+          Set Fast Krozer as your default
         </message>
         <message name="IDS_SET_BROWSER_AS_DEFAULT_MENU_ITEM" desc="Menu item that prompts user to set Chromium as their default browser.">
-          Set Fast Browser as your default browser
+          Set Fast Krozer as your default browser
         </message>
 
         <!-- Default Browser Promo Refresh -->
@@ -2781,16 +2781,16 @@ Chromium is unable to recover your settings.
       <!--Launch On Startup-->
       <if expr="is_win">
         <message name="IDS_SETTINGS_FOREGROUND_LAUNCH_ON_STARTUP_LABEL" desc="Label for settings toggle button that enables or disables opening Chromium on system startup">
-          Launch Fast Browser when Windows starts
+          Launch Fast Krozer when Windows starts
         </message>
         <message name="IDS_SETTINGS_FOREGROUND_LAUNCH_ON_STARTUP_SUB_LABEL" desc="Sub label for settings toggle button that enables or disables opening Chromium on system startup">
-          Launch Fast Browser automatically to begin browsing instantly.
+          Launch Fast Krozer automatically to begin browsing instantly.
         </message>
         <message name="IDS_STARTUP_LAUNCH_INFOBAR_OPT_IN_TITLE" desc="Title of the infobar shown to ask the user if they want to allow Chromium to launch when windows starts.">
-          Begin browsing instantly: Fast Browser can now launch when Windows starts.
+          Begin browsing instantly: Fast Krozer can now launch when Windows starts.
         </message>
         <message name="IDS_STARTUP_LAUNCH_INFOBAR_OPT_OUT_TITLE" desc="Title of the infobar shown to inform the user that Chromium now starts automatically when Windows starts.">
-          Fast Browser now launches when Windows starts so you can begin browsing instantly. You can turn this off in settings.
+          Fast Krozer now launches when Windows starts so you can begin browsing instantly. You can turn this off in settings.
         </message>
       </if>
 
@@ -3557,10 +3557,10 @@ If this page isn’t working as expected, try allowing optimization.
       </message>
       <!-- Send Tab To Self -->
       <message name="IDS_SEND_TAB_TO_SELF_SIGN_IN_PROMO_TITLE" desc="Title of the send-tab-to-self sign-in promo bubble.">
-        Sign in to Fast Browser
+        Sign in to Fast Krozer
       </message>
       <message name="IDS_SEND_TAB_TO_SELF_SIGN_IN_PROMO_BUTTON_LABEL" desc="Label of the sign-in button in the send-tab-to-self sign-in promo bubble.">
-        Sign in to Fast Browser
+        Sign in to Fast Krozer
       </message>
 
       <!-- Enterprise device signals disclaimer -->

@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Fast Start Hub",
   "version": "0.5.1",
-  "description": "Built-in Fast Browser Start Hub by Fast Sector.",
+  "description": "Built-in Fast Krozer Start Hub by Fast Sector.",
   "permissions": [
     "search"
   ],

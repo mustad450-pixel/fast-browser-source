@@ -46,7 +46,7 @@ void ReportFastBrowserSecurityTaskResult(
   const std::u16string message =
       started
           ? u"Security update check started. Automatic Chromium security checks also run every 6 hours."
-          : u"Fast Browser could not start the automatic security update task.";
+          : u"Fast Krozer could not start the automatic security update task.";
   callback.Run(started ? VersionUpdater::UPDATED : VersionUpdater::FAILED,
                0, false, false, std::string(), 0, message);
 }

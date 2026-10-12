@@ -54,15 +54,15 @@ inline constexpr auto kInstallModes = std::to_array<InstallConstants>({
         .logo_suffix = L"",  // No logo suffix for the primary install mode.
         .app_guid =
             L"",  // Empty app_guid since no integration with Google Update.
-        .base_app_name = L"Fast Browser",              // A distinct base_app_name.
+        .base_app_name = L"Fast Krozer",              // A distinct base_app_name.
         .base_app_id = L"FastBrowser",                // A distinct base_app_id.
         .browser_prog_id_prefix = L"FastHTM",  // Browser ProgID prefix.
         .browser_prog_id_description =
-            L"Fast Browser HTML Document",  // Browser ProgID description.
+            L"Fast Krozer HTML Document",  // Browser ProgID description.
         .direct_launch_url_scheme = "fastbrowser",
         .pdf_prog_id_prefix = L"FastPDF",  // PDF ProgID prefix.
         .pdf_prog_id_description =
-            L"Fast Browser PDF Document",  // PDF ProgID description.
+            L"Fast Krozer PDF Document",  // PDF ProgID description.
         .active_setup_guid =
             L"{7D2B3E1D-D096-4594-9D8F-A6667F12E0AC}",  // Active Setup
                                                         // GUID.

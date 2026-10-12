@@ -62,7 +62,7 @@ export function getHtml(this: SettingsAboutPageElement) {
 <div style="margin-top: 12px;">
   <cr-button id="fastBrowserCheckUpdates"
       @click="${this.onFastBrowserUpdateClick_}">
-    Check for Fast Browser updates
+    Check for Fast Krozer updates
   </cr-button>
 </div>
     </div>

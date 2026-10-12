@@ -641,7 +641,7 @@ function resetFocus() { stopFocus(); state.focusRemaining=state.focusMinutes*60;
 function tickFocus() {
   if(!state.focusRunning||!focusEndAt)return;
   state.focusRemaining=Math.max(0,Math.ceil((focusEndAt-Date.now())/1000)); updateFocusDisplay();
-  if(state.focusRemaining<=0){ stopFocus(); $('focusToggle').textContent='Done'; document.title='Focus complete — Fast Browser'; setTimeout(()=>{document.title='Fast Browser';},4000); }
+  if(state.focusRemaining<=0){ stopFocus(); $('focusToggle').textContent='Done'; document.title='Focus complete — Fast Krozer'; setTimeout(()=>{document.title='Fast Krozer';},4000); }
 }
 $('focusToggle').addEventListener('click',()=>{
   if(state.focusRunning){ stopFocus(); return; }

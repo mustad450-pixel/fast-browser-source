@@ -18,31 +18,31 @@
       </message>
     </then>
     <else>
-      <message name="IDS_SETTINGS_ABOUT_PROGRAM" desc="Menu title for the About Fast Browser page.">
-        About Fast Browser
+      <message name="IDS_SETTINGS_ABOUT_PROGRAM" desc="Menu title for the About Fast Krozer page.">
+        About Fast Krozer
       </message>
       <message name="IDS_SETTINGS_GET_HELP_USING_CHROME" desc="Text of the button which takes the user to the Chrome help page.">
-        Get help with Fast Browser
+        Get help with Fast Krozer
       </message>
     </else>
   </if>
   <if expr="not is_chromeos">
-    <message name="IDS_SETTINGS_UPGRADE_UPDATING" desc="Status label: Updating Fast Browser">
-      Updating Fast Browser
+    <message name="IDS_SETTINGS_UPGRADE_UPDATING" desc="Status label: Updating Fast Krozer">
+      Updating Fast Krozer
     </message>
-    <message name="IDS_SETTINGS_UPGRADE_UPDATING_PERCENT" desc="Status label: Updating Fast Browser (90%)">
-      Updating Fast Browser (<ph name="PROGRESS_PERCENT">$1<ex>90%</ex></ph>)
+    <message name="IDS_SETTINGS_UPGRADE_UPDATING_PERCENT" desc="Status label: Updating Fast Krozer (90%)">
+      Updating Fast Krozer (<ph name="PROGRESS_PERCENT">$1<ex>90%</ex></ph>)
     </message>
     <message name="IDS_SETTINGS_UPGRADE_SUCCESSFUL_RELAUNCH" desc="Status label: Successfully updated Chromium">
-      Nearly up to date! Relaunch Fast Browser to finish updating.
+      Nearly up to date! Relaunch Fast Krozer to finish updating.
     </message>
     <message name="IDS_SETTINGS_UPGRADE_UP_TO_DATE" desc="Status label: Already up to date (Chromium)">
-      Fast Browser is up to date
+      Fast Krozer is up to date
     </message>
   </if>
   <if expr="is_chromeos">
-    <message name="IDS_SETTINGS_ABOUT_OS" desc="Menu title for the About Fast BrowserOS page.">
-      About Fast BrowserOS
+    <message name="IDS_SETTINGS_ABOUT_OS" desc="Menu title for the About Fast KrozerOS page.">
+      About Fast KrozerOS
     </message>
     <message name="IDS_OS_SETTINGS_TAG_OS_VERSION" desc="Text for search result item which, when clicked, navigates the user to about ChromeOS settings, which gives information about the current ChromeOS version.">
       ChromiumOS version
@@ -376,11 +376,11 @@
       Chromium is out of date
     </message>
     <message name="IDS_SETTINGS_SAFETY_HUB_VERSION_CARD_HEADER_UPDATED" desc="Safety Hub settings page (chrome://settings/safetyHub) gives users an overview over their safety status. The version card, which this text is a part of, informs the user whether their Chrome is up to date. This title of the card is shown when Chrome is up to date and the user does not need to take any action. Shown above the subtitle that is the Chrome version.">
-      Fast Browser is up to date
+      Fast Krozer is up to date
     </message>
   </if>
   <message name="IDS_SETTINGS_SAFETY_HUB_VERSION_NAVIGATION_ARIA_LABEL" desc="Safety Check settings page (chrome://settings/safetyCheck) gives users an overview over their safety status. The version card, which this text is a part of, informs the user whether their Chrome is up to date. This string is for the accesibility label for the card to call out where to navigation will happen (chrome://settings/help) if the card is clicked.">
-    Go to About Fast Browser page
+    Go to About Fast Krozer page
   </message>
   <message name="IDS_SETTINGS_SAFETY_HUB_VERSION_RELAUNCH_ARIA_LABEL" desc="Safety Check settings page (chrome://settings/safetyCheck) gives users an overview over their safety status. The version card, which this text is a part of, informs the user whether their Chrome is up to date. This string is for the accesibility label for the card to call out the click on card will result restarting the browser.">
     Relaunch Chromium
